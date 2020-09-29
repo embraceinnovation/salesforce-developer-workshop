@@ -2,8 +2,8 @@
 var apiVersion = 'v30.0',
 clientId = '3MVG9l2zHsylwlpTBQWp0nQ6hUoEYgwqQh3xs4_nzQQvvzQci5HYNsfN7KOPpV7N3gK7iBpgxhYvtORhvsiYH',
 loginUrl = 'https://login.salesforce.com/',
-redirectURI = 'http://localhost:3000/oauthcallback.html',
-proxyURL = 'http://localhost:3000/proxy/',
+redirectURI = 'http://cwrangler.herokuapp.com/oauthcallback.html',
+proxyURL = 'http://cwrangler.herokuapp.com/proxy/',
 client = new forcetk.Client(clientId, loginUrl, proxyURL);
 
 function login() {
